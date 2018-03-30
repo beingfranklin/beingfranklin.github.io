@@ -1,0 +1,11 @@
+---
+layout: post
+title: load Java Scripts Conditionally ??
+date: '2014-03-24T04:52:00.001-07:00'
+author: Franklin Antony
+tags: 
+modified_time: '2014-03-24T04:52:19.269-07:00'
+blogger_id: tag:blogger.com,1999:blog-4188648095860924696.post-611009156454714853
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">// SOCIAL<br /><br />(if ( $(window).width() &gt;= 740) { &nbsp; &nbsp; <br />&nbsp;<br />//TWITTER<br />script = document.createElement('script');<br />&nbsp; &nbsp; script.async = true;<br />&nbsp; &nbsp; script.id = 'twitter-wjs';<br />&nbsp; &nbsp; script.src = '//platform.twitter.com/widgets.js';<br />&nbsp; &nbsp; document.body.appendChild(script);<br />/* Pinterest JS SDK<br />&nbsp; &nbsp; script = document.createElement('script');<br />&nbsp; &nbsp; script.async = true;<br />&nbsp; &nbsp; script.id = 'pinterest-js';<br />&nbsp; &nbsp; script.src = '//assets.pinterest.com/js/pinit.js';<br />&nbsp; &nbsp; document.body.appendChild(script); &nbsp;*/<br /><br /><br />&nbsp;/* LInkedin JS SDK<br />&nbsp; &nbsp; script = document.createElement('script');<br />&nbsp; &nbsp; script.async = true;<br />&nbsp; &nbsp; script.id = 'linkedin-js';<br />&nbsp; &nbsp; script.src = '//platform.linkedin.com/in.js';<br />&nbsp; &nbsp; document.body.appendChild(script);*/<br /><br />&nbsp;// Facebook JS SDK<br />&nbsp; &nbsp; script = document.createElement('script');<br />&nbsp; &nbsp; script.async = true;<br />&nbsp; &nbsp; script.id = 'facebook-jssdk';<br />&nbsp; &nbsp; script.src = '//connect.facebook.net/en_US/all.js';<br />&nbsp; &nbsp; document.body.appendChild(script);<br /><br />// Google +1 button<br />&nbsp; &nbsp; script = document.createElement('script');<br />&nbsp; &nbsp; script.async = true;<br />&nbsp; &nbsp; script.src = '//apis.google.com/js/plusone.js';<br />&nbsp; &nbsp; document.body.appendChild(script);<br /><br />}</div>
