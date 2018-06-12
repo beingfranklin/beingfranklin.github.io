@@ -1094,7 +1094,7 @@ ol {
 .home-six-style .hero-text h2,
 .home-six-style .hero-text p,
 .home-six-style .social-links a {
-  color: #fff;
+  color: #000000;
 }
 .home-six-style .resume-list h2,
 .home-six-style .icon-box i,
@@ -1124,11 +1124,6 @@ ol {
 .home-six-style .hero-section img {
   margin-bottom: 60px;
 }
-@media screen and (min-width: 1441px) {
-  .home-six-style .hero-section img {
-    margin-top: 5% !important;
-  }
-}
 .home-six-style .hero-text h2 {
   font-size: 72px;
   margin-bottom: 40px;
@@ -1144,7 +1139,7 @@ ol {
   color: #fff;
 }
 .home-six-style .social-links a:hover {
-  color: #484848;
+  color: #fff;
 }
 .home-six-style .resume-list li {
   padding-left: 0;
@@ -1188,6 +1183,11 @@ ol {
 /* ===========================
   Responsive
 ============================== */
+@media screen and (min-width: 1441px) {
+  .home-six-style .hero-section img {
+    margin-top: 5% !important;
+  }
+}
 @media only screen and (max-width: 1730px) {
   .home-two-style .social-section .social-link-warp:after {
     display: none;
