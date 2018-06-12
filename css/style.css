@@ -1124,6 +1124,11 @@ ol {
 .home-six-style .hero-section img {
   margin-bottom: 60px;
 }
+@media screen and (min-width: 1441px) {
+  .home-six-style .hero-section img {
+    margin-top: 5% !important;
+  }
+}
 .home-six-style .hero-text h2 {
   font-size: 72px;
   margin-bottom: 40px;
