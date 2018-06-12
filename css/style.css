@@ -166,12 +166,20 @@ ol {
   border: 3px solid #fff;
   color: #fff;
   font-weight: 700;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .site-btn:hover {
   color: #009fff;
   border: 3px solid #fff;
   background-color: #fff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .circle-progress {
